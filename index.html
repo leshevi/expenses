@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Расходы</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="expenses">
+        <h1>Командировочные расходы</h1>
+        <input type="text" placeholder="Куда и дата">
+        <input type="text" id="expenseСheck" placeholder="Чек">
+        <input type="text" id="expenseName" placeholder="Статья расходов">        
+        <input type="number" id="expenseAmount" placeholder="Сумма">
+        <button onclick="addExpense()">Добавить</button>
+        <ul id="expenseList"></ul>
+        <p>Всего: руб <span id="totalExpenses">0.00</span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
