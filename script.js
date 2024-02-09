@@ -4,7 +4,7 @@ function addExpense() {
     const amount = parseFloat(document.getElementById("expenseAmount").value);
     
     if (isNaN(amount) || amount <= 0) {
-        alert("Please enter a valid amount.");
+        alert("Пожалуйста, введите действительную сумму.");
         return;
     }
     const totalExpensesElement = document.getElementById("totalExpenses");
