@@ -7,5 +7,4 @@ body {
     background-size: 100%;
     margin: 0; /* Убираем отступы */
     height: 100%; /* Высота страницы */
-    background-size: cover;
 }
