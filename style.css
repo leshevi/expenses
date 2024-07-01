@@ -1,5 +1,5 @@
 body {
-    color: rgb(20, 18, 16);
+    color: #000;
     background-image: url(kaluga.jpg);
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
